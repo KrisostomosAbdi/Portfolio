@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet"  type="text/css" href="style/experience.css">
-
+    <link rel="stylesheet" href="style/lighbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <script src="https://kit.fontawesome.com/3e0c78b6c8.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
   </head>
   <style>
@@ -22,18 +23,25 @@
   </style>
 
   <body>
+  <button onclick="topFunction()" id="myBtn"></button>
     <div class="container">
       <div class="main-body">
         <div class="row gutters-sm">
           <div class="col-md-12 mb-3">
             <div class="card">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.php"><img src="assets/left-long-solid.webp" sizes="100%" width="30px" height="30px"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+              </div>
+            </nav>
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
                   <div class="mt-3">
-                    <h3 style="padding-bottom: 2pt;">ORGANIZATIONS & EXPERIENCES</h3>
+                    <h3 style="margin-top:-50px; padding-bottom: 2px;">ORGANIZATIONS & EXPERIENCES</h3>
                     <div class="sosmed">
                         <img class="icon-soc" src="assets/pramuka.webp" sizes="100%" width="45px" height="45px">
-                        
                         <img class="icon-soc" src="assets/katedral.webp" sizes="100%" width="50px" height="45px">
                         <img class="icon-soc" src="assets/brainly2.webp" sizes="100%" width="50px" height="45px">
                         <img class="icon-soc" src="assets/LC.webp" sizes="100%" width="50px" height="50px">
@@ -44,6 +52,7 @@
               </div>
             </div>
           </div>
+          
           <div class="col-md-12 mb-3">
             <div class="card border-0">
               <div class="card-body">
@@ -114,11 +123,11 @@
                     <p style="text-align: justify; text-justify: inter-word;">
                       When I was in Senior High School, I often get involved in various school events as their committee. My Senior High School had a unique event committee system where every school event had their own committee. When my High School held an event, they opened registration for committee of the event. All students were allowed to enroll and then they selected every student who eligible to be the committee before they announced it. when the event was done, the committe would be dismissed. Some school events that I've ever got involved as their committee are 
                       <ul>
-                        <li>New Student Admission <br> Relationship Staff</li>
-                        <li>Classmeeting <br> Mural Contest Staff</li>
-                        <li>Christmas Party <br> Equipment Staff</li>
-                        <li>Infinite (End Semester Celebration) <br> Equipment Staff</li>
-                        <li>Independence Day <br> Cooking Contest Staff</li>
+                        <li><span class="boldtext">New Student Admission </span><br> Relationship Staff</li>
+                        <li><span class="boldtext">Classmeeting </span><br> Mural Contest Staff</li>
+                        <li><span class="boldtext">Christmas Party </span><br> Equipment Division Staff</li>
+                        <li><span class="boldtext">Infinite (End Semester Celebration) </span><br> Equipment Staff</li>
+                        <li><span class="boldtext">Independence Day </span><br> Cooking Contest Staff</li>
                       </ul>
                     </p>
                   </div>
@@ -179,6 +188,67 @@
                     Christmas Committee is tasked to prepare and organize everything that will be used during Christmas Mass. <span class="boldtext">My position in this committee is Coordinator of Altar Server.</span> My job was to coordinate with the administrator of Altar Server in my Church and ensure that we were preparing for Christmas Mass like conducting weekly rehearsal. I also helped the preparation of the Mass like burning charcoal that wil be used to fill thurible (incense burner).
                     </p>
                   </div>
+                  <!-- DOCUMENTATION -->
+                  <div class="col-sm-12">
+                    <div class="photo-gallery">
+                      <div class="container">
+                          <div class="intro">
+                              <h4 class="text-center">Documentation</h4>
+                          </div>
+                          <div class="row photos">
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- col-sm-12 -->
+                  </div>
                 </div>
 
                 <div class="row">
@@ -187,7 +257,7 @@
                       <h4 style="padding-bottom: 2pt;">Bangkit Academy <br> February 2022 - August 2022</h4>
                     </div>
                   </div>
-                <hr>
+                  <hr>
                   <div class="col-sm-3 d-flex justify-content-center align-items-center text-center">
                     <center>
                     <img class="logo mb-0" src="assets/bangkit.webp" sizes="100%">
@@ -202,12 +272,66 @@
                     <span class="boldtext">My position in this activity as participant in Cloud Computing Learning Path.</span>
                     </p>
                   </div>
-                </div>
-                <div class="row">
+                  <!-- DOCUMENTATION -->
                   <div class="col-sm-12">
-                    <center>
-                    <a class="btn btn-info " href="index.php">Back to Home</a>
-                    </center>
+                    <div class="photo-gallery">
+                      <div class="container">
+                          <div class="intro">
+                              <h4 class="text-center">Documentation</h4>
+                          </div>
+                          <div class="row photos">
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                              <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="assets/pramuka.webp" data-lightbox="photos">
+                                  <img class="img-fluid" src="assets/pramuka.webp">
+                                </a>
+                                <center>
+                                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                                </center>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- col-sm-12 -->
                   </div>
                 </div>
               </div>
@@ -218,15 +342,10 @@
       </div>
     </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="js/experience.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
