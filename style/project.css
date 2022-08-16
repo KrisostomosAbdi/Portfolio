@@ -91,7 +91,9 @@ body{
 .boldtext{
     font-weight: bold;
 }
-
+.blacktext{
+    color: black;
+}
 @media screen and (max-width: 770px) {
     .row, .nav, .jumbotron {
       flex-direction: column;
