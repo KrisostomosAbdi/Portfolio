@@ -1,17 +1,25 @@
-  * {
+*, *::before, *::after {
     box-sizing: border-box;
-  }
+}
+
   /*body*/
-  body{
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
     background-image: url("../assets/background.webp");
     background-size: cover;
-  }
+    min-height: 100vh !important;
+}
 
-  .navbar .container-fluid .collapse .nav-link:hover{
+.navbar .container-fluid .collapse .nav-link:hover {
     color: #fff;
     background-color: rgba(10, 10, 104, 0.4);
-    transition: all .2s;
-  }
+    transition: all 0.2s ease-in-out;
+}
 
   .navbar .container-fluid .collapse .nav-link{
     font-weight: bold;
@@ -54,7 +62,7 @@
   a:hover{
     color: #fff;
     background-color: rgba(10, 10, 140, 0.4);
-    transition: all .2s;
+    transition: all .2s ease-in-out;
   }
   a:hover:after{
     width: 100%;
